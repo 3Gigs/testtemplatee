@@ -1,0 +1,21 @@
+{
+  "name": "bdplugintemplate",
+  "version": "1.0.0",
+  "description": "Simple template for building BetterDiscord plugins with WebPack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && node ./etc/movePlugins.js"
+  },
+  "keywords": [],
+  "author": "3Gigs",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.2.8",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.24",
+    "@types/bandagedbd__bdapi": "^0.3.4"
+  }
+}
